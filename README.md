@@ -1,4 +1,4 @@
-👋 Hi, I’m @LEAKONO  
+👋 Hi, I’m EMMANUEL LEAKONO
 👀 I’m interested in full stack development, especially with JavaScript and Python.  
 🌱 I’m currently learning full stack development with a focus on JavaScript and Python.  
 💞️ I’m looking to collaborate on exciting projects involving web development, data science, or software development.  
