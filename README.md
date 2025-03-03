@@ -66,27 +66,14 @@ Let’s collaborate on exciting web development, software, or data science proje
 
 ---
 
-## 🐍 **Snake Contribution Animation**
-![Snake animation](https://github.com/LEAKONO/LEAKONO/blob/output/github-contribution-grid-snake.svg)
 
----
 
-## 📝 Latest Blog Posts  
-<!-- BLOG-POST-LIST:START -->
-📌 **Latest blog posts will be auto-updated here!**  
-<!-- BLOG-POST-LIST:END -->
 
-🔹 Want to read more? **[Check out my blog!](https://your-blog-link.com)**  
 
----
 
-## 💡 Fun Developer Quote
+##  Developer Quote
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
----
-
-## 🤣 Random Developer Joke
-![Jokes](https://readme-jokes.vercel.app/api?theme=radical)
 
 ---
 
