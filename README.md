@@ -58,8 +58,6 @@ Let’s collaborate on exciting web development, software, or data science proje
 ### 🚀 **Most Used Languages**
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LEAKONO&layout=compact&theme=radical)
 
-### 🔥 **Streak Stats**
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LEAKONO&theme=radical)
 
 ### 📈 **Contribution Graph**
 ![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=LEAKONO&theme=github-dark)
