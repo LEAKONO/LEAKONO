@@ -2,6 +2,12 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=F7A41D&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Python+%7C+JavaScript+%7C+Django+%7C+Flask;Node.js+%7C+Express+%7C+MongoDB;React+%7C+Tailwind+%7C+MySQL+%7C+Postman;Linux+%7C+Git+%7C+APIs+%7C+Problem+Solver)](https://git.io/typing-svg)
 
+![Profile Views](https://komarev.com/ghpvc/?username=LEAKONO&label=Profile%20Views&color=blue&style=flat)
+
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500"/>
+</p>
+
 ## 🚀 About Me
 Passionate about building end-to-end solutions, I thrive in both backend and frontend development. My expertise spans the entire development stack, including building dynamic web apps, integrating APIs, and optimizing databases.
 
@@ -10,6 +16,11 @@ Currently sharpening my skills in full-stack development, focusing on **React fo
 Let’s collaborate on exciting web development, software, or data science projects! I'm always open to challenges that push me to grow and innovate.
 
 📧 **Reach me:** leakonoemmanuel3@gmail.com
+
+---
+
+## 🏆 GitHub Trophies
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=LEAKONO&theme=radical&margin-w=15)
 
 ---
 
@@ -52,6 +63,30 @@ Let’s collaborate on exciting web development, software, or data science proje
 
 ### 📈 **Contribution Graph**
 ![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=LEAKONO&theme=github-dark)
+
+---
+
+## 🐍 **Snake Contribution Animation**
+![Snake animation](https://github.com/LEAKONO/LEAKONO/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+## 📝 Latest Blog Posts  
+<!-- BLOG-POST-LIST:START -->
+📌 **Latest blog posts will be auto-updated here!**  
+<!-- BLOG-POST-LIST:END -->
+
+🔹 Want to read more? **[Check out my blog!](https://your-blog-link.com)**  
+
+---
+
+## 💡 Fun Developer Quote
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---
+
+## 🤣 Random Developer Joke
+![Jokes](https://readme-jokes.vercel.app/api?theme=radical)
 
 ---
 
