@@ -1,7 +1,7 @@
-<h1 align="center">🚀 Emmanuel Leakono — Full-Stack Software Developer</h1>
+<h1 align="center"> Emmanuel Leakono — Full-Stack Software Developer </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=F7A41D&center=true&vCenter=true&width=700&lines=Crafting+Clean+Code+%26+Creative+Solutions;Full-Stack+Engineer+%7C+React+%26+Django+Specialist;Driven+by+Curiosity+%7C+Powered+by+Code+🔥" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=F7A41D&center=true&vCenter=true&width=800&lines=Clean+Code+%7C+Creative+Solutions+%7C+Consistent+Delivery;Full-Stack+Developer+%7C+MERN+%26+Python+Specialist;React%2C+Node%2C+Express%2C+Django%2C+MongoDB+%7C+Let's+Build+Awesome+Stuff!+🚀" alt="Typing SVG">
 </p>
 
 <p align="center">
@@ -16,11 +16,21 @@
 
 ## 💡 About Me
 
-I'm a passionate and creative **Full-Stack Software Developer** with a strong command of both backend and frontend technologies. I specialize in building responsive web applications, solving real-world problems with code, and turning complex ideas into sleek, high-performing solutions.
+I'm **Emmanuel Leakono**, a passionate and resourceful **Full-Stack Software Developer** with a strong foundation in both **MERN** (MongoDB, Express.js, React.js, Node.js) and **Python-based** technologies (Django & Flask).
 
-> 💻 From pixel-perfect **React UIs** to powerful **Django/Flask** backends — I make full-stack magic happen.
+> 💻 I build clean, responsive user interfaces with **React & Tailwind CSS**, and powerful backends with **Node.js**, **Express**, and **Django** — turning complex challenges into sleek, working solutions.
 
-Currently, I'm deepening my expertise in the **MERN** and **Python stacks**, mastering technologies like MongoDB, Express, React, Django, and Flask, and constantly pushing boundaries with modern tools like **Tailwind CSS**, **Postman**, and **Git**.
+I thrive at every layer of the stack and enjoy transforming ideas into fully functional, scalable, and user-centric applications.
+
+**What drives me?**
+- Curiosity for new tech
+- Passion for clean, maintainable code
+- Love for building useful, impactful software
+
+### 🔭 Currently working on:
+- Mastering advanced **MERN stack** features
+- Exploring test-driven development & CI/CD
+- Improving deployment skills using **Render**, **Netlify**, and **MongoDB Atlas**
 
 ---
 
@@ -104,6 +114,3 @@ Currently, I'm deepening my expertise in the **MERN** and **Python stacks**, mas
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </p>
-
----
-
