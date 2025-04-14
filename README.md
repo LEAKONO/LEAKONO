@@ -1,4 +1,4 @@
-<h1 align="center"> Emmanuel Leakono — Full-Stack Software Developer </h1>
+<h1 align="center"> Emmanuel Leakono — Full-Stack Software Engineer </h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=F7A41D&center=true&vCenter=true&width=800&lines=Clean+Code+%7C+Creative+Solutions+%7C+Consistent+Delivery;Full-Stack+Developer+%7C+MERN+%26+Python+Specialist;React%2C+Node%2C+Express%2C+Django%2C+MongoDB+%7C+Let's+Build+Awesome+Stuff!+🚀" alt="Typing SVG">
