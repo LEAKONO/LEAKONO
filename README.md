@@ -76,7 +76,7 @@ I thrive at every layer of the stack and enjoy transforming ideas into fully fun
 
 | 🚀 Project | 💡 Description |
 |-----------|----------------|
-| [🌐 My Website](https://github.com/LEAKONO/My-website) | A clean and personal website showcasing my profile, skills, and contact links. |
+| [🌐 My Website](https://leakono-portfolio.vercel.app/) | A clean and personal website showcasing my profile, skills, and contact links. |
 | [✅ Task Manager App](https://github.com/LEAKONO/task-master-frontend) | Full-stack productivity app with task tracking, built using React & Express.js. |
 | [💰 Personal Finance Tracker](https://github.com/LEAKONO/Budget-Trucker) | Budgeting tool to help users manage income, expenses, and savings. MERN-powered. |
 | [🏥 Doctors Appointment System](https://github.com/LEAKONO/doctors-appointment) | Book doctor visits online — full CRUD system with React & Node.js. |
