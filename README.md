@@ -1,4 +1,4 @@
-<h1 align="center"> Emmanuel Leakono — Full-Stack Software Engineer </h1>
+<h1 align="center">Hi there 👋, I'm Emmanuel Leakono — Full-Stack Software Engineer</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=F7A41D&center=true&vCenter=true&width=800&lines=Clean+Code+%7C+Creative+Solutions+%7C+Consistent+Delivery;Full-Stack+Developer+%7C+MERN+%26+Python+Specialist;React%2C+Node%2C+Express%2C+Django%2C+MongoDB+%7C+Let's+Build+Awesome+Stuff!+🚀" alt="Typing SVG">
@@ -15,56 +15,40 @@
 ---
 
 ## 💡 About Me
+I'm **Emmanuel Leakono**, a passionate and resourceful **Full-Stack Software Developer** specializing in both **MERN** and **Python-based** technologies (Django & Flask).
 
-I'm **Emmanuel Leakono**, a passionate and resourceful **Full-Stack Software Developer** with a strong foundation in both **MERN** (MongoDB, Express.js, React.js, Node.js) and **Python-based** technologies (Django & Flask).
-
-> 💻 I build clean, responsive user interfaces with **React & Tailwind CSS**, and powerful backends with **Node.js**, **Express**, and **Django** — turning complex challenges into sleek, working solutions.
-
-I thrive at every layer of the stack and enjoy transforming ideas into fully functional, scalable, and user-centric applications.
+💻 I craft clean, responsive user interfaces with **React + Tailwind CSS**, and build powerful backends with **Node.js**, **Express**, and **Django** — turning complex challenges into sleek, working solutions.
 
 **What drives me?**
-- Curiosity for new tech
-- Passion for clean, maintainable code
-- Love for building useful, impactful software
-
-### 🔭 Currently working on:
-- Mastering advanced **MERN stack** features
-- Exploring test-driven development & CI/CD
-- Improving deployment skills using **Render**, **Netlify**, and **MongoDB Atlas**
+- 🌟 Curiosity for new tech
+- 🛠️ Passion for clean, maintainable code
+- 🚀 Love for building impactful software
 
 ---
 
-## 📬 Reach Me
+## 🔥 Tech Arsenal
 
-- 📧 Email: [leakonoemmanuel3@gmail.com](mailto:leakonoemmanuel3@gmail.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/emmanuel-leakono-7125472b8/)  
-- 💼 [GitHub](https://github.com/LEAKONO)
-
----
-
-## 🛠 Tech Arsenal
-
-### 🌐 Languages:
+### 🌐 Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
-### ⚙️ Backend:
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-
-### 🎨 Frontend:
+### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
-### 💾 Databases:
+### ⚙️ Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+
+### 💾 Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-### 🧰 Tools:
+### 🛠️ Tools & Others
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
@@ -72,15 +56,28 @@ I thrive at every layer of the stack and enjoy transforming ideas into fully fun
 
 ---
 
+## 🚀 What's Next for Me?
+- 🌱 Currently Learning: Docker, Kubernetes, Microservices
+- 🔥 Upcoming Projects: AI-powered applications using MERN + Python
+- 🎯 Goals: Build scalable SaaS products and contribute to open-source projects
+
+---
+
 ## 🌟 Featured Projects
 
-| 🚀 Project | 💡 Description |
-|-----------|----------------|
-| [🌐 My Website](https://leakono-portfolio.vercel.app/) | A clean and personal website showcasing my profile, skills, and contact links. |
-| [✅ Task Manager App](https://github.com/LEAKONO/task-master-frontend) | Full-stack productivity app with task tracking, built using React & Express.js. |
-| [💰 Personal Finance Tracker](https://github.com/LEAKONO/Budget-Trucker) | Budgeting tool to help users manage income, expenses, and savings. MERN-powered. |
-| [🏥 Doctors Appointment System](https://github.com/LEAKONO/doctors-appointment) | Book doctor visits online — full CRUD system with React & Node.js. |
-| [🖼️ React Portfolio](https://github.com/LEAKONO/Portfolio) | Responsive portfolio built with modern UI using React + Tailwind CSS. |
+- 🌐 [My Website Portfolio](https://leakono-portfolio.vercel.app/) — Personal website showcasing my skills and work
+- ✅ [Task Manager App](https://github.com/LEAKONO/task-master-frontend) — Full-stack productivity app built with React & Express
+- 💰 [Personal Finance Tracker](https://github.com/LEAKONO/Budget-Trucker) — MERN stack app to manage budgets and savings
+- 🏥 [Doctors Appointment System](https://github.com/LEAKONO/doctors-appointment) — Book doctor visits online (CRUD system)
+- 🖼️ [React Portfolio Website](https://github.com/LEAKONO/Portfolio) — Sleek portfolio using React + Tailwind CSS
+
+---
+
+## 📬 Let's Connect!
+
+- 📧 Email: [leakonoemmanuel3@gmail.com](mailto:leakonoemmanuel3@gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/emmanuel-leakono-7125472b8/)
+- 💼 [GitHub](https://github.com/LEAKONO)
 
 ---
 
