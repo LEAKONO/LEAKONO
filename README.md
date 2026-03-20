@@ -1,5 +1,5 @@
 <h1 align="center">
-  Hi there, I'm Emmanuel Leakono — Full-Stack Software Engineer & Aspiring Data Scientist
+  Hi there, I'm Emmanuel Leakono — Full-Stack Software Engineer & Aspiring Data Engineer
 </h1>
 <h3 align="center">
   Passionate about building scalable web apps and uncovering insights through data.
