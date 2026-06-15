@@ -6,7 +6,7 @@ Hi, I’m Emmanuel Leakono</h1>
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=F7A41D&center=true&vCenter=true&width=800&lines=Clean+Code+%7C+Creative+Solutions+%7C+Consistent+Delivery;Full-Stack+Developer+%7C+MERN+%26+Python+Specialist;React%2C+Node%2C+Express%2C+Django%2C+MongoDB+%7C+Let's+Build+Awesome+Stuff!+🚀" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3500&color=22C55E&center=true&vCenter=true&width=1100&lines=Software+Engineer+%7C+Data+Engineer;Designing+Scalable+Systems+and+Modern+Data+Platforms;Python+%7C+SQL+%7C+JavaScript+%7C+TypeScript;Apache+Spark+%7C+Airflow+%7C+Kafka+%7C+dbt;React+%7C+Node.js+%7C+Django+%7C+FastAPI;AWS+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;Data+Pipelines+%7C+Cloud+Architecture+%7C+Backend+Engineering+🚀" alt="Typing SVG">
 </p>
 
 <p align="center">
