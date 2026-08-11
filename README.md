@@ -1,11 +1,19 @@
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  $ airflow dags trigger emmanuel_leakono_v2                 │
-│  [2026-08-11 09:41:03] INFO - DAG triggered successfully     │
-│  [2026-08-11 09:41:03] INFO - Scheduler: it's_a_me_engine    │
-└─────────────────────────────────────────────────────────────┘
+$ ./initialize_engineer.sh
+
+[ OK ] Python runtime
+[ OK ] SQL engine
+[ OK ] Snowflake warehouse
+[ OK ] dbt transformation layer
+[ OK ] Apache Airflow orchestration
+[ OK ] Power BI analytics
+[ OK ] Linux / Git / Docker
+[ OK ] "why?" generator
+
+STATUS: 🟢 ONLINE
+LOCATION: Nairobi, Kenya 🇰🇪
 ```
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=800&lines=EXTRACT+%E2%86%92+TRANSFORM+%E2%86%92+LOAD;Data+Engineer+%7C+Software+Engineer;Nairobi%2C+Kenya+%F0%9F%87%B0%F0%9F%87%AA;Self-taught.+Production-minded." alt="Typing SVG" />
@@ -134,6 +142,12 @@ git + linux + postman
 + [DONE] safaridesk_internship           react/typescript frontend + django/postgres apis
 ```
 
+```
+watermark incremental loading — relative runtime
+before  ██████████████████████████████  100%
+after   █████████                        30%
+```
+
 <br>
 
 ## `⛁` `$ whoami --verbose`
@@ -143,6 +157,24 @@ git + linux + postman
 > ingestion, warehousing, transformation, orchestration, and BI —
 > plus a backend internship shipping real features on a deadline.
 > still learning. still shipping. still asking why.
+```
+
+<br>
+
+## `⛁` currently loading...
+
+```
+AWS Certified Cloud Practitioner   [██████████░░░░░░░░░░]  in progress
+```
+
+```python
+next_targets = [
+    "Kafka & event streaming",
+    "Distributed data systems",
+    "Advanced warehouse architecture",
+    "Cloud architecture patterns",
+    "Advanced SQL",
+]
 ```
 
 <br>
