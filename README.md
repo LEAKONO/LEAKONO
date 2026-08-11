@@ -1,118 +1,200 @@
-<h1 align="center">
-Hi, I’m Emmanuel Leakono</h1>
-<h3 align="center">
-  Passionate about building scalable web apps and uncovering insights through data.
-</h3>
+<div align="center">
 
+```
+┌─────────────────────────────────────────────────────────────┐
+│  $ airflow dags trigger emmanuel_leakono_v2                 │
+│  [2026-08-11 09:41:03] INFO - DAG triggered successfully     │
+│  [2026-08-11 09:41:03] INFO - Scheduler: it's_a_me_engine    │
+└─────────────────────────────────────────────────────────────┘
+```
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3500&color=22C55E&center=true&vCenter=true&width=1100&lines=Software+Engineer+%7C+Data+Engineer;Designing+Scalable+Systems+and+Modern+Data+Platforms;Python+%7C+SQL+%7C+JavaScript+%7C+TypeScript;Apache+Spark+%7C+Airflow+%7C+Kafka+%7C+dbt;React+%7C+Node.js+%7C+Django+%7C+FastAPI;AWS+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;Data+Pipelines+%7C+Cloud+Architecture+%7C+Backend+Engineering+🚀" alt="Typing SVG">
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=800&lines=EXTRACT+%E2%86%92+TRANSFORM+%E2%86%92+LOAD;Data+Engineer+%7C+Software+Engineer;Nairobi%2C+Kenya+%F0%9F%87%B0%F0%9F%87%AA;Self-taught.+Production-minded.+Stubborn+about+why.svg" alt="Typing SVG" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LEAKONO&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
-</p>
+</div>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="480" alt="Coding GIF">
-</p>
+<br>
 
----
+<table align="center">
+<tr>
+<td>
 
-##  About Me
-I'm **Emmanuel Leakono**, a passionate and resourceful **Full-Stack Software Developer** specializing in both **MERN** and **Python-based** technologies (Django & Flask).
+```python
+# about_me.py
+class Engineer:
+    def __init__(self):
+        self.name          = "Emmanuel Leakono"
+        self.base          = "Nairobi, Kenya"
+        self.role          = ["Data Engineer", "Software Engineer"]
+        self.origin_story  = "started with zero laptop experience"
+        self.trained_at    = ["Moringa School", "PLP Academy"]
+        self.philosophy    = "ask why, not just how"
 
-💻 I craft clean, responsive user interfaces with **React + Tailwind CSS**, and build powerful backends with **Node.js**, **Express**, and **Django** — turning complex challenges into sleek, working solutions.
+    def debug(self, problem: str) -> str:
+        # I don't stop at "it works now" —
+        # I stop at "I understand why it broke"
+        return self.philosophy
 
-**What drives me?**
-- Curiosity for new tech
-- Passion for clean, maintainable code
-- Love for building impactful software
+if __name__ == "__main__":
+    me = Engineer()
+    print(me.debug("silently paused DAG at 2am"))
+    # >>> ask why, not just how
+```
 
----
+</td>
+</tr>
+</table>
 
-##  Tech Arsenal
+<br>
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+## `⛁` pipeline architecture
 
-###  Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+```mermaid
+flowchart LR
+    A[("fa:fa-database RAW\nmessy, unopinionated")] -->|extract| B[/"STAGING\ncleaned, typed"/]
+    B -->|transform| C{{"MARTS\nbusiness-ready"}}
+    C -->|load| D[["Power BI\nDashboards"]]
+    E["AUDIT_LOGS"] -.watches.-> A
+    E -.watches.-> B
+    E -.watches.-> C
+    F["QUARANTINE"] -.catches bad rows.-> B
 
-###  Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+    style A fill:#1a1a2e,stroke:#22C55E,color:#22C55E
+    style B fill:#1a1a2e,stroke:#22C55E,color:#22C55E
+    style C fill:#1a1a2e,stroke:#22C55E,color:#22C55E
+    style D fill:#1a1a2e,stroke:#22C55E,color:#22C55E
+    style E fill:#16161f,stroke:#ef4444,color:#ef4444
+    style F fill:#16161f,stroke:#eab308,color:#eab308
+```
 
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+*That's not a metaphor — that's the actual six-schema Snowflake layout I run in production-style projects.*
 
-### Tools & Others
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+<br>
 
----
+## `⛁` tech stack — `requirements.txt`
 
-##  What's Next for Me?
--  Currently Learning: Docker, Kubernetes, Microservices
--  Upcoming Projects: AI-powered applications using MERN + Python
--  Goals: Build scalable SaaS products and contribute to open-source projects
+<table align="center">
+<tr>
+<td valign="top" width="50%">
 
----
+**// data engineering**
+```
+python        # main tool
+sql           # main language i think in
+dbt           # transformation layer
+apache-airflow # orchestration, standalone venv
+snowflake     # warehouse
+postgresql    # source systems
+power-bi      # the part people actually see
+```
 
-##  Featured Projects
+</td>
+<td valign="top" width="50%">
 
--  [My Website Portfolio](https://leakono-portfolio.vercel.app/) — Personal website showcasing my skills and work
--  [Task Manager App](https://github.com/LEAKONO/task-master-frontend) — Full-stack productivity app built with React & Express
--  [Personal Finance Tracker](https://github.com/LEAKONO/Budget-Trucker) — MERN stack app to manage budgets and savings
--  [Doctors Appointment System](https://github.com/LEAKONO/doctors-appointment) — Book doctor visits online (CRUD system)
--  [React Portfolio Website](https://github.com/LEAKONO/Portfolio) — Sleek portfolio using React + Tailwind CSS
+**// software engineering**
+```
+javascript / typescript
+react
+node.js + express
+django / flask
+mongodb / mysql
+git + linux + postman
+```
 
----
+</td>
+</tr>
+</table>
 
-##  Let's Connect!
+<br>
 
-- Email: [leakonoemmanuel3@gmail.com](mailto:leakonoemmanuel3@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/emmanuel-leakono-7125472b8/)
-- [GitHub](https://github.com/LEAKONO)
+## `⛁` `$ tail -f build_log.txt`
 
----
+```diff
++ [PASS] flight_operations_analytics    9-phase pipeline · Power BI published
++ [PASS] books_data_pipeline            scrape → snowflake → dbt → airflow → metabase
++ [PASS] kenya_economic_intelligence    docker · celery · rabbitmq · 3 workers
++ [PASS] retail_analytics_pipeline      airflow · star schema · power bi
++ [PASS] crypto_market_pipeline         foundational end-to-end build
+! [WARN] docker_hardware_constraints    resolved → standalone airflow venv
++ [FIXED] silently_paused_dag           root-caused, not just restarted
++ [FIXED] api_rate_limiting             exponential backoff + airflow pool
+i [NEXT]  uber_trip_analytics           nyc tlc dataset — in progress
+```
 
-## GitHub Analytics
+<br>
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LEAKONO&show_icons=true&theme=radical&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LEAKONO&layout=compact&theme=radical" />
-</p>
+## `⛁` featured pipelines & builds
 
----
+<table align="center">
+<tr>
+<th>project</th>
+<th>what it does</th>
+<th>stack</th>
+</tr>
+<tr>
+<td><b>Flight Operations Analytics</b></td>
+<td>End-to-end platform, all 9 phases from requirements to a published dashboard. Idempotent delete-then-insert loads on a deterministic <code>batch_id</code>.</td>
+<td>Python · dbt · Snowflake · Airflow · Power BI</td>
+</tr>
+<tr>
+<td><b>Books Data Pipeline</b></td>
+<td>Full modern-data-stack build: scrape → warehouse → transform → orchestrate → visualize.</td>
+<td>Python · Snowflake · dbt · Airflow · Metabase</td>
+</tr>
+<tr>
+<td><b>Kenya Economic Intelligence</b></td>
+<td>Distributed Airflow setup with Celery + RabbitMQ workers; debugged real production-style failures, not toy bugs.</td>
+<td>Docker Compose · CeleryExecutor · RabbitMQ · PostgreSQL</td>
+</tr>
+<tr>
+<td><a href="https://github.com/LEAKONO/task-master-frontend"><b>Task Manager App</b></a></td>
+<td>Full-stack productivity app.</td>
+<td>React · Express</td>
+</tr>
+<tr>
+<td><a href="https://github.com/LEAKONO/Budget-Trucker"><b>Personal Finance Tracker</b></a></td>
+<td>Budgets and savings management.</td>
+<td>MERN</td>
+</tr>
+</table>
 
-## GitHub Trophies
+<sub>→ add repo links for the data pipeline builds above once they're live and this table writes itself.</sub>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=LEAKONO&theme=radical&margin-w=15" />
-</p>
+<br>
 
----
+## `⛁` monitoring dashboard
 
-##  Contribution Heatmap
+<div align="center">
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=LEAKONO&show_icons=true&theme=github-dark-dimmed&hide_border=true&count_private=true&title_color=22C55E&icon_color=22C55E&text_color=c9d1d9&bg_color=0d1117" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LEAKONO&layout=compact&theme=github-dark-dimmed&hide_border=true&title_color=22C55E&text_color=c9d1d9&bg_color=0d1117" />
+</div>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LEAKONO&theme=github-dark" />
-</p>
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LEAKONO&theme=github-compact&hide_border=true&bg_color=0d1117&color=22C55E&line=22C55E&point=ffffff" />
+</div>
 
----
+<br>
 
-## ✨ Dev Quote of the Day
+## `⛁` `$ whoami --verbose`
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</p>
+```
+> not from a CS background. not from money. not from an easy start.
+> taught myself with a borrowed laptop and a stubborn need to know why,
+> not just how. every pipeline in this profile is proof of that —
+> broken DAGs debugged at 2am, API rate limits fought and won,
+> six-schema warehouses built because "it works" wasn't good enough.
+> still learning. still shipping. still asking why.
+```
+
+<br>
+
+<div align="center">
+
+**`⛁` connect**
+
+[![Email](https://img.shields.io/badge/-leakonoemmanuel3@gmail.com-22C55E?style=flat-square&logo=gmail&logoColor=white)](mailto:leakonoemmanuel3@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-22C55E?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-leakono-7125472b8/)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-22C55E?style=flat-square&logo=vercel&logoColor=white)](https://leakono-portfolio.vercel.app/)
+
+<sub>pipeline status: <b>🟢 running</b> · last dag run: today</sub>
+
+</div>
