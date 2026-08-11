@@ -1,22 +1,31 @@
 <div align="center">
 
-```
+```text
 $ ./initialize_engineer.sh
 
-[ OK ] Python runtime
-[ OK ] SQL engine
-[ OK ] Snowflake warehouse
-[ OK ] dbt transformation layer
-[ OK ] Apache Airflow orchestration
-[ OK ] Power BI analytics
-[ OK ] Linux / Git / Docker
-[ OK ] "why?" generator
+Loading engineer profile...
 
-STATUS: 🟢 ONLINE
-LOCATION: Nairobi, Kenya 🇰🇪
+identity     → Emmanuel Leakono
+role         → Data Engineer
+location     → Nairobi, Kenya 🇰🇪
+specialty    → Data Pipelines & Analytics
+
+initializing stack...
+
+python       → [████████████████████] READY
+sql          → [████████████████████] READY
+snowflake    → [████████████████████] READY
+dbt          → [████████████████████] READY
+airflow      → [████████████████████] READY
+power-bi     → [████████████████████] READY
+
+────────────────────────────────────────────
+SYSTEM STATUS   : 🟢 ONLINE
+PIPELINE STATUS : 🟢 RUNNING
+────────────────────────────────────────────
 ```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=800&lines=EXTRACT+%E2%86%92+TRANSFORM+%E2%86%92+LOAD;Data+Engineer+%7C+Software+Engineer;Nairobi%2C+Kenya+%F0%9F%87%B0%F0%9F%87%AA;Self-taught.+Production-minded." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=850&lines=EXTRACT+%E2%86%92+TRANSFORM+%E2%86%92+LOAD;Data+Engineer+%7C+Software+Engineer;Python+%2B+SQL+%2B+Snowflake+%2B+dbt+%2B+Airflow;Building+production-minded+data+systems" alt="Typing SVG" />
 
 </div>
 
@@ -26,7 +35,7 @@ LOCATION: Nairobi, Kenya 🇰🇪
 <tr>
 <td valign="top">
 
-```
+```text
         ┌────────────────────────┐
         │   E M M A N U E L      │
         │      L E A K O N O     │
@@ -45,28 +54,32 @@ LOCATION: Nairobi, Kenya 🇰🇪
 </td>
 <td valign="top">
 
-```
+```text
 emmanuel@nairobi
 -----------------
-OS ..........  Data Engineer (Junior)
+OS ..........  Data Engineer
 Host ........  Nairobi, Kenya
-Kernel ......  self-taught, est. zero-laptop-experience
+Kernel ......  learn → build → ship
 Uptime ......  2+ years, backend & data systems
 Shell .......  bash / zsh (linux)
 Editor ......  VS Code
 
-Lang.Data ...  Python, SQL
-Lang.Web ....  JavaScript, TypeScript
-
-Stack.Data ..  Snowflake, dbt, Airflow, Power BI
-Stack.Web ...  React, Django, Node.js, Express
+Lang ........  Python, SQL
+Cloud .......  AWS
+Storage .....  Amazon S3
+Warehouse ...  Snowflake
+Transform ...  dbt
+Orchestrate .  Apache Airflow
+Analytics ...  Power BI
 
 Contact.Mail   leakonoemmanuel3@gmail.com
 Contact.Hub .  github.com/LEAKONO
 Contact.In ..  /in/emmanuel-leakono-7125472b8
 
 -----------------
-🟩🟩🟩🟩 🟨🟨🟨🟨 🟥🟥🟥🟥 ⬛⬛⬛⬛
+STATUS .......  BUILDING
+MODE .........  SHIPPING
+FOCUS ........  DATA ENGINEERING
 ```
 
 </td>
@@ -79,7 +92,7 @@ Contact.In ..  /in/emmanuel-leakono-7125472b8
 
 ```mermaid
 flowchart LR
-    A[("fa:fa-database RAW")] -->|extract| B[/"STAGING"/]
+    A[("RAW")] -->|extract| B[/"STAGING"/]
     B -->|dbt transform| C{{"MARTS"}}
     C -->|load| D[["Power BI"]]
     E["Orchestration\nApache Airflow"] -.schedules & retries.-> A
@@ -102,14 +115,14 @@ flowchart LR
 <td valign="top" width="50%">
 
 **// data engineering**
-```
+```text
 python
 sql             # window functions, CTEs
 snowflake
-postgresql / mysql / mongodb
+postgresql / mysql
 dbt             # certified: Fundamentals
 apache-airflow  # certified: Essentials
-aws-s3
+aws
 power-bi
 docker + github-actions
 ```
@@ -118,7 +131,7 @@ docker + github-actions
 <td valign="top" width="50%">
 
 **// software engineering**
-```
+```text
 javascript (es6+) / typescript
 react + redux + tailwind
 django + drf / flask
@@ -142,7 +155,7 @@ git + linux + postman
 + [DONE] safaridesk_internship           react/typescript frontend + django/postgres apis
 ```
 
-```
+```text
 watermark incremental loading — relative runtime
 before  ██████████████████████████████  100%
 after   █████████                        30%
@@ -152,19 +165,19 @@ after   █████████                        30%
 
 ## `⛁` `$ whoami --verbose`
 
-```
+```text
 > built three production-style data pipelines end to end —
 > ingestion, warehousing, transformation, orchestration, and BI —
 > plus a backend internship shipping real features on a deadline.
-> still learning. still shipping. still asking why.
+> building reliable systems. shipping continuously.
 ```
 
 <br>
 
 ## `⛁` currently loading...
 
-```
-AWS Certified Cloud Practitioner   [██████████░░░░░░░░░░]  in progress
+```text
+AWS Cloud Practitioner   [██████████░░░░░░░░░░]  IN PROGRESS
 ```
 
 ```python
@@ -179,17 +192,14 @@ next_targets = [
 
 <br>
 
-```
-$ fortune | cowsay
- _________________________________________
-/ "In God we trust; all others must       \
-\ bring data." — W. Edwards Deming        /
- -----------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+## `⛁` `$ cat engineering_principles.txt`
+
+```text
+reliable      → pipelines should recover
+observable    → failures should be visible
+reproducible  → transformations should be deterministic
+scalable      → design for the next 100×
+useful        → data should drive decisions
 ```
 
 <br>
@@ -202,6 +212,6 @@ $ fortune | cowsay
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-22C55E?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-leakono-7125472b8/)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-22C55E?style=flat-square&logo=vercel&logoColor=white)](https://leakono-portfolio.vercel.app/)
 
-<sub>pipeline status: <b>🟢 running</b> · last dag run: today</sub>
+<sub>building data systems · Nairobi, Kenya 🇰🇪 · available for opportunities</sub>
 
 </div>
