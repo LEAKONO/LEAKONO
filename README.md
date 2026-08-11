@@ -1,200 +1,524 @@
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  $ airflow dags trigger emmanuel_leakono_v2                 │
-│  [2026-08-11 09:41:03] INFO - DAG triggered successfully     │
-│  [2026-08-11 09:41:03] INFO - Scheduler: it's_a_me_engine    │
-└─────────────────────────────────────────────────────────────┘
+# `emmanuel@nairobi:~$ ./initialize_engineer.sh`
+
+```text
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│   ███████╗███╗   ███╗███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗███████╗ │
+│   ██╔════╝████╗ ████║████╗ ████║██╔══██╗████╗  ██║██║   ██║██╔════╝ │
+│   █████╗  ██╔████╔██║██╔████╔██║███████║██╔██╗ ██║██║   ██║█████╗   │
+│   ██╔══╝  ██║╚██╔╝██║██║╚██╔╝██║██╔══██║██║╚██╗██║╚██╗ ██╔╝██╔══╝   │
+│   ███████╗██║ ╚═╝ ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║ ╚████╔╝ ███████╗ │
+│   ╚══════╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚══════╝ │
+│                                                                      │
+│                    DATA ENGINEER // BUILDER                          │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
+
+[BOOT] Initializing engineering environment...
+[ OK ] Python runtime
+[ OK ] SQL engine
+[ OK ] Snowflake warehouse
+[ OK ] dbt transformation layer
+[ OK ] Apache Airflow orchestration
+[ OK ] Power BI analytics layer
+[ OK ] Linux / Git / Docker
+[ OK ] Curiosity
+[ OK ] "Why?" generator
+
+STATUS: 🟢 ONLINE
+LOCATION: Nairobi, Kenya 🇰🇪
 ```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=800&lines=EXTRACT+%E2%86%92+TRANSFORM+%E2%86%92+LOAD;Data+Engineer+%7C+Software+Engineer;Nairobi%2C+Kenya+%F0%9F%87%B0%F0%9F%87%AA;Self-taught.+Production-minded.+Stubborn+about+why.svg" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=850&lines=EXTRACT+%E2%86%92+TRANSFORM+%E2%86%92+LOAD;DATA+ENGINEERING+%7C+SOFTWARE+ENGINEERING;PYTHON+%2B+SQL+%2B+SNOWFLAKE+%2B+DBT+%2B+AIRFLOW;BUILDING+DATA+SYSTEMS+THAT+ACTUALLY+RUN;SELF-TAUGHT.+PRODUCTION-MINDED." alt="Typing SVG"/>
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Emmanuel_Leakono-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/emmanuel-leakono-7125472b8)
+[![GitHub](https://img.shields.io/badge/GitHub-LEAKONO-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/LEAKONO)
+[![Email](https://img.shields.io/badge/Email-Contact-22C55E?style=flat-square\&logo=gmail\&logoColor=white)](mailto:leakonoemmanuel3@gmail.com)
 
 </div>
 
-<br>
+---
 
-<table align="center">
-<tr>
-<td>
+## `01` // SYSTEM IDENTITY
 
-```python
-# about_me.py
-class Engineer:
-    def __init__(self):
-        self.name          = "Emmanuel Leakono"
-        self.base          = "Nairobi, Kenya"
-        self.role          = ["Data Engineer", "Software Engineer"]
-        self.origin_story  = "started with zero laptop experience"
-        self.trained_at    = ["Moringa School", "PLP Academy"]
-        self.philosophy    = "ask why, not just how"
+```text
+emmanuel@nairobi
+-----------------
 
-    def debug(self, problem: str) -> str:
-        # I don't stop at "it works now" —
-        # I stop at "I understand why it broke"
-        return self.philosophy
+ROLE        : Junior Data Engineer
+BACKGROUND  : Software Engineering
+LOCATION    : Nairobi, Kenya 🇰🇪
 
-if __name__ == "__main__":
-    me = Engineer()
-    print(me.debug("silently paused DAG at 2am"))
-    # >>> ask why, not just how
+PRIMARY     : Python / SQL
+WAREHOUSE   : Snowflake
+TRANSFORM   : dbt
+ORCHESTRATE : Apache Airflow
+VISUALIZE   : Power BI
+CLOUD       : AWS
+SYSTEM      : Linux
+VERSIONING  : Git / GitHub
+
+EXPERIENCE
+----------
+Backend Engineering      ███████████████████░░  85%
+Data Engineering         ████████████████░░░░░  75%
+SQL                      ███████████████████░░  90%
+Python                   ███████████████████░░  90%
+Cloud / AWS              ████████████░░░░░░░░  60%
+
+UPTIME      : 2+ years building software & data systems
+MINDSET     : Understand → Build → Break → Fix → Ship
 ```
 
-</td>
-</tr>
-</table>
+---
 
-<br>
+## `02` // DATA PIPELINE CONTROL ROOM
 
-## `⛁` pipeline architecture
+```text
+                         ┌───────────────────┐
+                         │   DATA SOURCES    │
+                         │                   │
+                         │ APIs • CSV • DBs  │
+                         │ External Systems  │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                         ┌───────────────────┐
+                         │     INGESTION     │
+                         │                   │
+                         │ Python • REST API │
+                         │ Incremental Loads │
+                         │ Watermarks        │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                    ┌──────────────────────────────┐
+                    │         SNOWFLAKE            │
+                    │                              │
+                    │       RAW → STAGING          │
+                    │               ↓              │
+                    │             MARTS            │
+                    └──────────────┬───────────────┘
+                                   │
+                         ┌─────────▼─────────┐
+                         │       dbt         │
+                         │                   │
+                         │ Transformations   │
+                         │ Tests • Models    │
+                         │ Documentation     │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                         ┌───────────────────┐
+                         │      POWER BI     │
+                         │                   │
+                         │ KPIs • Analytics  │
+                         │ Dashboards        │
+                         └───────────────────┘
 
-```mermaid
-flowchart LR
-    A[("fa:fa-database RAW\nmessy, unopinionated")] -->|extract| B[/"STAGING\ncleaned, typed"/]
-    B -->|transform| C{{"MARTS\nbusiness-ready"}}
-    C -->|load| D[["Power BI\nDashboards"]]
-    E["AUDIT_LOGS"] -.watches.-> A
-    E -.watches.-> B
-    E -.watches.-> C
-    F["QUARANTINE"] -.catches bad rows.-> B
-
-    style A fill:#1a1a2e,stroke:#22C55E,color:#22C55E
-    style B fill:#1a1a2e,stroke:#22C55E,color:#22C55E
-    style C fill:#1a1a2e,stroke:#22C55E,color:#22C55E
-    style D fill:#1a1a2e,stroke:#22C55E,color:#22C55E
-    style E fill:#16161f,stroke:#ef4444,color:#ef4444
-    style F fill:#16161f,stroke:#eab308,color:#eab308
+                    ▲
+                    │
+              ┌─────┴─────┐
+              │  AIRFLOW  │
+              │           │
+              │ Schedule  │
+              │ Retry     │
+              │ Monitor   │
+              └───────────┘
 ```
 
-*That's not a metaphor — that's the actual six-schema Snowflake layout I run in production-style projects.*
+> **Design principle:** data should move predictably, transformations should be reproducible, failures should be observable, and business users should trust the final numbers.
 
-<br>
+---
 
-## `⛁` tech stack — `requirements.txt`
+## `03` // ENGINEERING STACK
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
+### `data-engineering`
 
-**// data engineering**
-```
-python        # main tool
-sql           # main language i think in
-dbt           # transformation layer
-apache-airflow # orchestration, standalone venv
-snowflake     # warehouse
-postgresql    # source systems
-power-bi      # the part people actually see
-```
+```yaml
+languages:
+  - Python
+  - SQL
 
-</td>
-<td valign="top" width="50%">
+warehousing:
+  - Snowflake
+  - PostgreSQL
+  - MySQL
 
-**// software engineering**
-```
-javascript / typescript
-react
-node.js + express
-django / flask
-mongodb / mysql
-git + linux + postman
-```
+transformation:
+  - dbt
 
-</td>
-</tr>
-</table>
+orchestration:
+  - Apache Airflow
 
-<br>
+cloud:
+  - AWS S3
+  - AWS EC2
+  - AWS fundamentals
 
-## `⛁` `$ tail -f build_log.txt`
+analytics:
+  - Power BI
+  - Metabase
 
-```diff
-+ [PASS] flight_operations_analytics    9-phase pipeline · Power BI published
-+ [PASS] books_data_pipeline            scrape → snowflake → dbt → airflow → metabase
-+ [PASS] kenya_economic_intelligence    docker · celery · rabbitmq · 3 workers
-+ [PASS] retail_analytics_pipeline      airflow · star schema · power bi
-+ [PASS] crypto_market_pipeline         foundational end-to-end build
-! [WARN] docker_hardware_constraints    resolved → standalone airflow venv
-+ [FIXED] silently_paused_dag           root-caused, not just restarted
-+ [FIXED] api_rate_limiting             exponential backoff + airflow pool
-i [NEXT]  uber_trip_analytics           nyc tlc dataset — in progress
+engineering:
+  - Docker
+  - Git
+  - GitHub Actions
+  - Linux
 ```
 
-<br>
+### `software-engineering`
 
-## `⛁` featured pipelines & builds
+```yaml
+languages:
+  - JavaScript
+  - TypeScript
+  - Python
 
-<table align="center">
-<tr>
-<th>project</th>
-<th>what it does</th>
-<th>stack</th>
-</tr>
-<tr>
-<td><b>Flight Operations Analytics</b></td>
-<td>End-to-end platform, all 9 phases from requirements to a published dashboard. Idempotent delete-then-insert loads on a deterministic <code>batch_id</code>.</td>
-<td>Python · dbt · Snowflake · Airflow · Power BI</td>
-</tr>
-<tr>
-<td><b>Books Data Pipeline</b></td>
-<td>Full modern-data-stack build: scrape → warehouse → transform → orchestrate → visualize.</td>
-<td>Python · Snowflake · dbt · Airflow · Metabase</td>
-</tr>
-<tr>
-<td><b>Kenya Economic Intelligence</b></td>
-<td>Distributed Airflow setup with Celery + RabbitMQ workers; debugged real production-style failures, not toy bugs.</td>
-<td>Docker Compose · CeleryExecutor · RabbitMQ · PostgreSQL</td>
-</tr>
-<tr>
-<td><a href="https://github.com/LEAKONO/task-master-frontend"><b>Task Manager App</b></a></td>
-<td>Full-stack productivity app.</td>
-<td>React · Express</td>
-</tr>
-<tr>
-<td><a href="https://github.com/LEAKONO/Budget-Trucker"><b>Personal Finance Tracker</b></a></td>
-<td>Budgets and savings management.</td>
-<td>MERN</td>
-</tr>
-</table>
+frontend:
+  - React
+  - Redux
+  - Tailwind CSS
 
-<sub>→ add repo links for the data pipeline builds above once they're live and this table writes itself.</sub>
+backend:
+  - Django
+  - Django REST Framework
+  - Flask
+  - Node.js
+  - Express
 
-<br>
+security:
+  - JWT
+  - OAuth2
+  - bcrypt
 
-## `⛁` monitoring dashboard
+tools:
+  - Git
+  - Linux
+  - Postman
+```
+
+---
+
+## `04` // PRODUCTION LAB
+
+```text
+┌─────────────────────────────────────────────────────────────────────┐
+│ PROJECT                         STATUS             RESULT            │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                       │
+│ ✈ Flight Operations Analytics   [██████████]       70% faster        │
+│   Watermark-based incremental   🟢 SHIPPED        ~30m → ~9m         │
+│                                                                       │
+│ 🛒 Retail ELT Pipeline          [██████████]       1M+ records       │
+│   Snowflake + dbt + Airflow     🟢 SHIPPED        34 quality tests  │
+│                                                                       │
+│ 🚕 Uber Trip Analytics          [██████████]       End-to-end        │
+│   Python + Snowflake + dbt      🟢 SHIPPED        BI-ready marts    │
+│                                                                       │
+│ 🌐 SafariDesk                   [██████████]       Real features     │
+│   React + TypeScript + Django   🟢 COMPLETED      Frontend + APIs   │
+│                                                                       │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### ✈ Flight Operations Analytics
+
+**Problem:** Full-refresh ingestion was wasting processing time.
+
+**Solution:** Implemented watermark-based incremental loading.
+
+```text
+BEFORE
+30 minutes
+██████████████████████████████
+
+AFTER
+~9 minutes
+█████████
+
+IMPROVEMENT → ~70% runtime reduction
+```
+
+**Stack:** Python · AviationStack API · Snowflake · dbt · Airflow · Power BI
+
+---
+
+### 🛒 Retail ELT Pipeline
+
+```text
+Online Retail II
+      │
+      ▼
+Python ingestion
+      │
+      ▼
+Snowflake RAW
+      │
+      ▼
+dbt STAGING
+      │
+      ▼
+dbt MARTS
+      │
+      ▼
+Power BI
+```
+
+**Pipeline output:**
+
+```text
+Records processed     1,021,429
+Revenue analyzed      £18.93M
+Data quality tests    34
+Orchestration         Apache Airflow
+```
+
+---
+
+### 🚕 Uber Trip Analytics
+
+```text
+             NYC TAXI DATA
+                   │
+                   ▼
+              INGESTION
+                   │
+                   ▼
+              SNOWFLAKE
+                   │
+          ┌────────┴────────┐
+          ▼                 ▼
+       STAGING             RAW
+          │
+          ▼
+         DBT
+          │
+          ▼
+        MARTS
+          │
+          ▼
+       POWER BI
+```
+
+**MARTS**
+
+```text
+FACT_TRIP
+DIM_DATETIME
+DIM_LOCATION
+DIM_VENDOR
+DIM_PAYMENT_TYPE
+```
+
+---
+
+## `05` // DATA ENGINEERING PATTERNS I USE
+
+```text
+                 ┌─────────────────────┐
+                 │     RAW LAYER       │
+                 │                     │
+                 │ Preserve source     │
+                 │ data as received    │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │   STAGING LAYER     │
+                 │                     │
+                 │ Clean • Cast •      │
+                 │ Standardize         │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │     MARTS LAYER     │
+                 │                     │
+                 │ Facts • Dimensions  │
+                 │ BI-ready models     │
+                 └─────────────────────┘
+```
+
+```text
+✓ Incremental loading
+✓ Watermarking
+✓ Idempotent pipelines
+✓ Data quality testing
+✓ Audit logging
+✓ Quarantine handling
+✓ Dimensional modeling
+✓ Star schemas
+✓ ETL / ELT
+✓ Pipeline monitoring
+✓ Failure recovery
+```
+
+---
+
+## `06` // AIRFLOW SCHEDULER
+
+```text
+$ airflow dags trigger emmanuel_leakono_v2
+
+[2026-08-11 09:41:03] INFO
+DAG triggered successfully
+
+[2026-08-11 09:41:04] INFO
+Task: extract_source_data              ✓
+
+[2026-08-11 09:41:19] INFO
+Task: load_raw                         ✓
+
+[2026-08-11 09:42:01] INFO
+Task: dbt_staging                      ✓
+
+[2026-08-11 09:42:37] INFO
+Task: dbt_marts                        ✓
+
+[2026-08-11 09:42:49] INFO
+Task: data_quality                    ✓
+
+[2026-08-11 09:42:53] INFO
+Task: refresh_bi                      ✓
+
+────────────────────────────────────────────
+PIPELINE STATUS : 🟢 SUCCESS
+ROWS PROCESSED  : 1,021,429
+FAILED TASKS    : 0
+RETRIES         : 0
+────────────────────────────────────────────
+```
+
+---
+
+## `07` // `$ whoami --verbose`
+
+```text
+> I build data pipelines end to end.
+
+> I care about what happens between
+> "the API returned JSON"
+> and
+> "the dashboard says 18.93M".
+
+> I like understanding the entire path:
+
+        source
+          ↓
+      ingestion
+          ↓
+       storage
+          ↓
+     transformation
+          ↓
+       modeling
+          ↓
+       analytics
+
+> My software engineering background taught me
+> to think about APIs, databases, systems and failure.
+
+> Data engineering taught me to think about
+> reliability, scalability, lineage and trust.
+
+> I'm still learning.
+
+> I'm still breaking things.
+
+> I'm still asking WHY.
+
+> And I'm still shipping.
+```
+
+---
+
+## `08` // CURRENTLY LOADING...
+
+```text
+[███████████████████████░░░]  AWS
+[████████████████████░░░░░]  Data Engineering
+[███████████████████░░░░░░]  Distributed Systems
+[█████████████████░░░░░░░░]  Kafka
+[████████████████░░░░░░░░░]  Cloud Architecture
+[███████████████░░░░░░░░░░]  Advanced SQL
+```
+
+```text
+next_modules = [
+
+    "Kafka & event streaming",
+    "AWS data engineering",
+    "Distributed data systems",
+    "Advanced warehouse architecture",
+    "Data platform engineering"
+
+]
+```
+
+---
+
+## `09` // ENGINEERING PHILOSOPHY
+
+```text
+┌────────────────────────────────────────────────────────────┐
+│                                                            │
+│  DATA IS NOT JUST SOMETHING TO MOVE.                       │
+│                                                            │
+│  It needs to be:                                           │
+│                                                            │
+│       RELIABLE     →     Can I trust it?                   │
+│       REPEATABLE   →     Can I run it again safely?        │
+│       OBSERVABLE   →     Will I know when it breaks?       │
+│       SCALABLE     →     What happens at 100× volume?     │
+│       USEFUL       →     Can someone make a decision?     │
+│                                                            │
+└────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## `10` // CONTACT
 
 <div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=LEAKONO&show_icons=true&theme=github-dark-dimmed&hide_border=true&count_private=true&title_color=22C55E&icon_color=22C55E&text_color=c9d1d9&bg_color=0d1117" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LEAKONO&layout=compact&theme=github-dark-dimmed&hide_border=true&title_color=22C55E&text_color=c9d1d9&bg_color=0d1117" />
-</div>
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LEAKONO&theme=github-compact&hide_border=true&bg_color=0d1117&color=22C55E&line=22C55E&point=ffffff" />
-</div>
+```text
+┌─────────────────────────────────────────────┐
+│                                             │
+│  $ ./connect_with_emmanuel.sh               │
+│                                             │
+│  EMAIL      → leakonoemmanuel3@gmail.com    │
+│  GITHUB     → github.com/LEAKONO            │
+│  LINKEDIN   → Emmanuel Leakono              │
+│  LOCATION   → Nairobi, Kenya 🇰🇪             │
+│                                             │
+│  status: OPEN_TO_OPPORTUNITIES              │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+<a href="https://github.com/LEAKONO">
+  <img src="https://img.shields.io/badge/GitHub-LEAKONO-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/emmanuel-leakono-7125472b8">
+  <img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<br><br>
+
+```text
+pipeline status: 🟢 RUNNING
+last deployment: TODAY
+failed jobs: 0
+coffee: REQUIRED ☕
+```
 
 <br>
 
-## `⛁` `$ whoami --verbose`
-
-```
-> not from a CS background. not from money. not from an easy start.
-> taught myself with a borrowed laptop and a stubborn need to know why,
-> not just how. every pipeline in this profile is proof of that —
-> broken DAGs debugged at 2am, API rate limits fought and won,
-> six-schema warehouses built because "it works" wasn't good enough.
-> still learning. still shipping. still asking why.
-```
-
-<br>
-
-<div align="center">
-
-**`⛁` connect**
-
-[![Email](https://img.shields.io/badge/-leakonoemmanuel3@gmail.com-22C55E?style=flat-square&logo=gmail&logoColor=white)](mailto:leakonoemmanuel3@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-22C55E?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-leakono-7125472b8/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-22C55E?style=flat-square&logo=vercel&logoColor=white)](https://leakono-portfolio.vercel.app/)
-
-<sub>pipeline status: <b>🟢 running</b> · last dag run: today</sub>
+> *"In God we trust; all others must bring data."*
 
 </div>
